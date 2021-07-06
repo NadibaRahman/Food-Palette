@@ -16,6 +16,9 @@ body{
     background-image: url(frame-1.jpg);
     background-repeat: no-repeat;
 }
+#new-padding{
+ padding-top: 5%;
+}
 .sec-2{
     background-image: url(frame-3.jpg);
     background-repeat: no-repeat;
