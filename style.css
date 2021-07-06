@@ -2,33 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.flexible{
-    display: flex;
-}
-.orange-color{
-    color: orangered;
-}
-.purple-color{
-    color: purple;
-    font-size: 30px;
-}
 .sec-1{
     background-image: url(frame-1.jpg);
     background-repeat: no-repeat;
 }
-#new-padding{
- padding-top: 5%;
-}
-.sec-2{
-    background-image: url(frame-3.jpg);
-    background-repeat: no-repeat;
-    padding-left: 50px;
-}
-.recipe{
-    text-align: center;
-}
-#font{
-    font-size: 40px;
+.flexible{
+    display: flex;
 }
 .half-width{
     width: 50%;
@@ -41,6 +20,9 @@ body{
     padding-left: 3%;
     margin-top: 2%;  
 }
+.orange-color{
+    color: orangered;
+}
 .button-link{
     text-decoration: none;
     background-image: linear-gradient(purple, rgb(51, 119, 119));
@@ -48,6 +30,18 @@ body{
     padding: 10px 30px ;
     font-weight: 700;
     border-radius: 8px;
+}
+#new-padding{
+    padding-top: 5%;
+   }
+.sec-2{
+    background-image: url(frame-3.jpg);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.purple-color{
+    color: purple;
+    font-size: 30px;
 }
 .button-link-2{
     text-decoration: none;
@@ -60,6 +54,12 @@ body{
 .sec-3{
     background-image: url(frame-4.jpg);
     background-repeat: no-repeat;
+}
+#font{
+    font-size: 40px;
+}
+.recipe{
+    text-align: center;
 }
 .border-1{
     color: black;
