@@ -21,19 +21,12 @@ body{
     background-repeat: no-repeat;
     padding-left: 50px;
 }
-.sec-3{
-    background-image: url(frame-4.jpg);
-    background-repeat: no-repeat;
-}
 .recipe{
     text-align: center;
 }
 #font{
     font-size: 40px;
-   
 }
-
-
 .half-width{
     width: 50%;
     font-size: 25px;
@@ -61,13 +54,17 @@ body{
     font-weight: 700;
     border-radius: 15px;
 }
+.sec-3{
+    background-image: url(frame-4.jpg);
+    background-repeat: no-repeat;
+}
 .border-1{
     color: black;
     border-bottom: 5px solid;
     border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
 }
-.box-item{
+.box-item1{
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
@@ -81,4 +78,48 @@ body{
 .img{
     width: 100%;
     border-radius: 25px;
+}
+.sec-4{
+    background-image: url(frame-3.jpg);
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+.box-item2{
+    margin-top: 4%;
+    box-shadow: 10px 10px 50px grey;
+    padding-right: 12%;
+    padding-left: 10%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#item-1{
+    border-right: 5px solid;
+    border-image: linear-gradient(purple, cyan);
+    border-image-slice: 1;
+    border-radius: 5%;
+}
+#item-2{
+    border-right: 5px solid;
+    border-image: linear-gradient(mediumvioletred, pink);
+    border-image-slice: 1;
+}
+#item-3{
+  border-radius: 5%;
+}
+.sec-4 h1{
+    color: rgb(20, 119, 122);
+}
+.sec-4 a{
+   text-decoration: none;
+   color: brown;
+}
+footer{
+    font-weight: 700;
+    text-align: center;
+    background-image:linear-gradient( rgb(190, 176, 176), rgb(219, 207, 207), grey);
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
